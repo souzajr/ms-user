@@ -1,0 +1,13 @@
+{
+  "script": "bin/www",
+  "watch": "build",
+  "ignore_watch": [
+    "src",
+    "log",
+    "node_modules"
+  ],
+  "watch_options": {
+    "followSymlinks": false
+  },
+  "name": "ms-user"
+}
