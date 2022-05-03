@@ -9,7 +9,7 @@
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install",
-    "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write",
+    "prettier": "prettier --config .prettierrc \"src/**/*\" --write",
     "lint": "eslint . --ext .ts"
   },
   "keywords": [
