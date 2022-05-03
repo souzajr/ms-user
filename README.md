@@ -10,11 +10,14 @@ Node.Js / Express / PostgreSQL
 
 ## Config and install
 
-1) Install dependencies
+1. Install dependencies
+
 ```bash
 $ yarn
 ```
-2) Run project
+
+2. Run project
+
 ```bash
 $ yarn start
 ```
