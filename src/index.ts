@@ -1,3 +1,8 @@
-import App from './app';
+import express from 'express';
+import router from './routes';
 
-new App().server.listen(3000);
+const app = express();
+
+app.use(router);
+
+app.listen(process.env.PORT, () => console.warn(`App running on ${process.env.PORT}`));
